@@ -10,7 +10,7 @@ if __name__ == '__main__':
         camera.resolution = (1280,720)
         camera.vflip = True
         camera.contrast = 10
-        index = 100;
+        index = 1;
         while True:
             line = ser.readline().decode('utf-8').rstrip()
             ser.write("2\n".encode('utf-8'))
